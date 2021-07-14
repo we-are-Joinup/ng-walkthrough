@@ -1,5 +1,11 @@
 # Changelog of ng-walkthrough
 
+## V0.6.18 (2021-07-14)
+
+### Corrections
+
+- Fix error coordinates undefined in console.log
+
 ## V0.6.17 (2018-06-12)
 
 ### Corrections

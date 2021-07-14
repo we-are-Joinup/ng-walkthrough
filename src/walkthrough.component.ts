@@ -574,7 +574,7 @@ export class WalkthroughComponent implements AfterViewInit {
                     this._contentSpacing,
                     this._verticalContentSpacing
                 );
-                if (this._focusElement !== null && this._hasArrow) {
+                if (this._offsetCoordinates && this._focusElement !== null && this._hasArrow) {
                     instance.arrowPosition(
                         this._offsetCoordinates,
                         this._verticalContentSpacing

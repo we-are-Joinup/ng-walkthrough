@@ -4,10 +4,10 @@
   "description": "Walkthrough, an Angular library",
   "baseUrl": "./",
   "author": "Célian Veyssière",
-  "main": "./dist/bundles/angular-walkthrough.umd.js",
-  "module": "./dist/angular-walkthrough.es5.js",
-  "es2015": "./dist/angular-walkthrough.js",
-  "typings": "./dist/angular-walkthrough.d.ts",
+  "main": "./bundles/angular-walkthrough.umd.js",
+  "module": "./angular-walkthrough.es5.js",
+  "es2015": "./angular-walkthrough.js",
+  "typings": "./angular-walkthrough.d.ts",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -27,7 +27,7 @@
     "walkthrough",
     "angular"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "@angular/cdk": "^5.0.0",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
@@ -96,8 +96,5 @@
   "bugs": {
     "url": "https://github.com/Zefling/ng-walkthrough/issues"
   },
-  "homepage": "https://github.com/Zefling/ng-walkthrough#readme",
-  "files": [
-    "dist/"
-  ]
+  "homepage": "https://github.com/Zefling/ng-walkthrough#readme"
 }
